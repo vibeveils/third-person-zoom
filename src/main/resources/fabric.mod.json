@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "thirdpersonzoom",
+	"version": "${version}",
+	"name": "Third Person Zoom",
+	"description": "Hold a key and scroll in third person to move the camera closer or much further away. Default distance is configurable.",
+	"authors": [],
+	"license": "MIT",
+	"icon": "assets/thirdpersonzoom/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.thirdpersonzoom.ThirdPersonZoom"
+		],
+		"modmenu": [
+			"dev.thirdpersonzoom.compat.ModMenuCompat"
+		]
+	},
+	"mixins": [
+		"thirdpersonzoom.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

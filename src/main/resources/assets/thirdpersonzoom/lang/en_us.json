@@ -1,0 +1,13 @@
+{
+	"key.category.thirdpersonzoom.main": "Third Person Zoom",
+	"key.thirdpersonzoom.zoom": "Zoom (hold + scroll)",
+
+	"thirdpersonzoom.config.title": "Third Person Zoom",
+	"thirdpersonzoom.config.default_distance": "Default distance: %s blocks",
+	"thirdpersonzoom.config.max_distance": "Max distance: %s blocks",
+	"thirdpersonzoom.config.scroll_step": "Scroll step: %s",
+	"thirdpersonzoom.config.smooth_zoom": "Smooth zoom",
+	"thirdpersonzoom.config.camera_collision": "Stop camera at walls",
+	"thirdpersonzoom.config.reset_on_perspective": "Reset when entering 3rd person",
+	"thirdpersonzoom.config.invert_scroll": "Invert scroll"
+}
